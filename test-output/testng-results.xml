@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-28T12:19:18 IST" name="Suite" finished-at="2025-01-28T12:19:40 IST" duration-ms="21826">
+  <suite started-at="2025-01-28T16:43:41 IST" name="Suite" finished-at="2025-01-28T16:44:00 IST" duration-ms="19357">
     <groups>
     </groups>
-    <test started-at="2025-01-28T12:19:18 IST" name="HomepageTest" finished-at="2025-01-28T12:19:34 IST" duration-ms="15428">
+    <test started-at="2025-01-28T16:43:41 IST" name="HomepageTest" finished-at="2025-01-28T16:43:49 IST" duration-ms="8644">
       <class name="Com.CRM_Testcases.HomePageTestcase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Com.CRM_Testcases.HomePageTestcase@750e2b97]" started-at="2025-01-28T12:19:19 IST" name="setup" finished-at="2025-01-28T12:19:30 IST" duration-ms="11069" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.CRM_Testcases.HomePageTestcase@750e2b97]" started-at="2025-01-28T16:43:41 IST" name="setup" finished-at="2025-01-28T16:43:47 IST" duration-ms="6957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyurl()[pri:1, instance:Com.CRM_Testcases.HomePageTestcase@750e2b97]" started-at="2025-01-28T12:19:30 IST" name="verifyurl" finished-at="2025-01-28T12:19:32 IST" duration-ms="2546" status="PASS">
+        <test-method signature="verifyurl()[pri:1, instance:Com.CRM_Testcases.HomePageTestcase@750e2b97]" started-at="2025-01-28T16:43:48 IST" name="verifyurl" finished-at="2025-01-28T16:43:48 IST" duration-ms="750" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyurl -->
-        <test-method signature="veriftittle()[pri:2, instance:Com.CRM_Testcases.HomePageTestcase@750e2b97]" started-at="2025-01-28T12:19:32 IST" name="veriftittle" finished-at="2025-01-28T12:19:32 IST" duration-ms="27" status="PASS">
+        <test-method signature="veriftittle()[pri:2, instance:Com.CRM_Testcases.HomePageTestcase@750e2b97]" started-at="2025-01-28T16:43:48 IST" name="veriftittle" finished-at="2025-01-28T16:43:48 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- veriftittle -->
-        <test-method signature="validatesignLInk()[pri:3, instance:Com.CRM_Testcases.HomePageTestcase@750e2b97]" started-at="2025-01-28T12:19:32 IST" name="validatesignLInk" finished-at="2025-01-28T12:19:34 IST" duration-ms="1707" status="PASS">
+        <test-method signature="validatesignLInk()[pri:3, instance:Com.CRM_Testcases.HomePageTestcase@750e2b97]" started-at="2025-01-28T16:43:48 IST" name="validatesignLInk" finished-at="2025-01-28T16:43:49 IST" duration-ms="841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatesignLInk -->
       </class> <!-- Com.CRM_Testcases.HomePageTestcase -->
     </test> <!-- HomepageTest -->
-    <test started-at="2025-01-28T12:19:34 IST" name="LoginpageTest" finished-at="2025-01-28T12:19:40 IST" duration-ms="6317">
+    <test started-at="2025-01-28T16:43:49 IST" name="LoginpageTest" finished-at="2025-01-28T16:44:00 IST" duration-ms="10643">
       <class name="Com.CRM_Testcases.LoginPageTestcase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Com.CRM_Testcases.LoginPageTestcase@4c60d6e9]" started-at="2025-01-28T12:19:34 IST" name="setup" finished-at="2025-01-28T12:19:38 IST" duration-ms="4301" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.CRM_Testcases.LoginPageTestcase@4c60d6e9]" started-at="2025-01-28T16:43:49 IST" name="setup" finished-at="2025-01-28T16:43:57 IST" duration-ms="7658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="pagesetup()[pri:0, instance:Com.CRM_Testcases.LoginPageTestcase@4c60d6e9]" started-at="2025-01-28T12:19:38 IST" name="pagesetup" finished-at="2025-01-28T12:19:39 IST" duration-ms="1082" status="PASS">
+        <test-method is-config="true" signature="pagesetup()[pri:0, instance:Com.CRM_Testcases.LoginPageTestcase@4c60d6e9]" started-at="2025-01-28T16:43:57 IST" name="pagesetup" finished-at="2025-01-28T16:43:59 IST" duration-ms="1852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pagesetup -->
-        <test-method signature="verifylologin()[pri:1, instance:Com.CRM_Testcases.LoginPageTestcase@4c60d6e9]" started-at="2025-01-28T12:19:39 IST" name="verifylologin" finished-at="2025-01-28T12:19:40 IST" duration-ms="929" status="PASS">
+        <test-method signature="verifylologin()[pri:1, instance:Com.CRM_Testcases.LoginPageTestcase@4c60d6e9]" started-at="2025-01-28T16:43:59 IST" name="verifylologin" finished-at="2025-01-28T16:44:00 IST" duration-ms="1126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylologin -->

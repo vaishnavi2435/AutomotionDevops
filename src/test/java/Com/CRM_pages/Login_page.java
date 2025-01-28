@@ -3,6 +3,8 @@ package Com.CRM_pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import Com_CRM_Utility.Scrrenshot;
+
 public class Login_page 
 {
 	
@@ -24,7 +26,11 @@ public class Login_page
 	
 	
 	public String doloign(String un,String ps)
+	
+	
 	{
+		
+		Scrrenshot .getScrresnhot(driver);
 		driver.findElement(email).sendKeys(un);
 		driver.findElement(psw).sendKeys(ps);
 		driver.findElement(btn).click();

@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.*;
 import org.openqa.selenium.support.PageFactory;
 
+import Com_CRM_Utility.Scrrenshot;
+
 public class Homepage
 
 {
@@ -40,7 +42,11 @@ public class Homepage
 	 
 	 
 	 public String getStatusOfLink()
+	 
+	 
 	 {
+		 Scrrenshot.getScrresnhot(driver); 
+		
 		 driver.findElement(email).click();
 		 
 		 return driver.getCurrentUrl();
